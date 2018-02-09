@@ -53,5 +53,8 @@ gem 'devise'
 gem 'omniauth-oauth2'
 gem 'bootstrap-sass'
 gem 'omniauth-google-oauth2'
+gem 'google-api-client'
 
 gem 'certified'
+gem 'yt'
+gem 'youtube'
