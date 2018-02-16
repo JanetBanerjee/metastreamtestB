@@ -130,7 +130,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.3, ruby-2.2.6-p396) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="declarative (v0.0.9, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="declarative (v0.0.10, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="declarative-option (v0.1.0, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.3.0, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.0, ruby-2.2.6-p396) [gem]" level="application" />
@@ -138,8 +138,8 @@
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.12.2, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.18, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.1, ruby-2.2.6-p396) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="google-api-client (v0.13.1, ruby-2.2.6-p396) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="googleauth (v0.5.3, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="google-api-client (v0.19.7, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="googleauth (v0.6.2, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v3.5.6, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="httpclient (v2.8.3, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.9.3, ruby-2.2.6-p396) [gem]" level="application" />
@@ -187,7 +187,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.7, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.8.0, ruby-2.2.6-p396) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="signet (v0.7.3, ruby-2.2.6-p396) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="signet (v0.8.1, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, ruby-2.2.6-p396) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, ruby-2.2.6-p396) [gem]" level="application" />

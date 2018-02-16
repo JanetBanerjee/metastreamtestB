@@ -2,7 +2,12 @@
 <h2>
   This is the index
 </h2>
+<%= @channel.title %>
+<%= @channel.view_count %>
+<%= @channel.video_count %>
+<% @channel.subscribed_channels.each do |subs| %>
+  <%= subs.title %>
+<% end %>
 
-<%= @content_owner.title %>
 
 

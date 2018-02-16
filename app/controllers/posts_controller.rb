@@ -1,15 +1,12 @@
 class PostsController < ApplicationController
-  before_action :yt_config
   require 'yt'
 
   def index
-    @content_owner = Yt::Channel.new refresh_token: 'refresh_token'
+    Yt.configuration.api_key = "AIzaSyDiT_oxqFucNcolq6BeV2uLWhOP0P4gtOI"
+
+    @channel = Yt::Channel.new id: 'UCkxctb0jr8vwa4Do6c6su0Q'
+
   end
 
-  def yt_config
-    Yt.configure do |config|
-      config.log_level = :debug
-    end
-  end
 
 end
