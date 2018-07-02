@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180216201633) do
+ActiveRecord::Schema.define(version: 20180607184149) do
 
   create_table "posts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.date "date"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20180216201633) do
     t.string "refresh_token"
     t.string "id_token"
     t.string "channel_id"
+    t.string "client_secret"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

@@ -275,5 +275,5 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
-  config.omniauth :google_oauth2, '393365834206-41sodsbcrq0pgft9sci3hj17masf8ib1.apps.googleusercontent.com', 'rNytXXvaszqf_x1cb-F-DuN4', scopes: ['youtube.force-ssl', 'email', 'https://www.googleapis.com/auth/gmail.modify'], access_type: 'offline', approval_prompt: 'force', prompt: 'consent'
+  config.omniauth :google_oauth2, '393365834206-41sodsbcrq0pgft9sci3hj17masf8ib1.apps.googleusercontent.com', 'rNytXXvaszqf_x1cb-F-DuN4', scopes: ['youtube.force-ssl', 'email', 'youtube'], access_type: 'offline', approval_prompt: 'force', prompt: 'consent'
 end

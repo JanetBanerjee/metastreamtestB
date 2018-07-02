@@ -1,7 +1,5 @@
 class User < ApplicationRecord
   has_many :posts
-  # Include default devise modules. Others available are:
-  # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:google_oauth2]
@@ -16,8 +14,10 @@ class User < ApplicationRecord
       user.oauth_token = auth.credentials.token
       user.oauth_expires_at = Time.at(auth.credentials.expires_at)
       user.refresh_token = auth.credentials.refresh_token
+      user.access_token = auth.credentials.access_token
       user.save!
     end
+
   end
 
 end

@@ -1,4 +1,5 @@
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
+  require 'json'
   def google_oauth2
     @user = User.create_from_omniauth(request.env["omniauth.auth"])
 
